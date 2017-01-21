@@ -1,14 +1,18 @@
 /*
  Theme Name:   Hueman Child Theme
  Theme URI:    http://www.alexjustesen.com
- Description:  A Hueman child theme 
+ Description:  This theme was designed for WordPress as a child theme for Hueman to make minor modifations to the parent theme, use the theme how ever you like it is released under GNU General Public License v2 or later. To install the theme download the repo and add to your themes directory in WordPress.
  Author:       Alex Justesen
  Author URI:   http://www.alexjustesen.com
  Template:     hueman
- Version:      1.0.0
+ Version:      1.0.1
 */
 
 @import url("../hueman/style.css");
+
+.post-thumbnail {
+    margin-bottom: none;
+}
 
 .post-meta .post-category a {
     color: #bbbbbb;

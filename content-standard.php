@@ -16,7 +16,7 @@
 		<div class="post-content">
 
 			<div class="post-meta group">
-				<p class="post-category"><?php the_category(' / '); ?></p>
+				<?php get_template_part('parts/post-category'); ?>
 				<?php get_template_part('parts/post-list-author-date'); ?>
 			</div><!--/.post-meta-->
 

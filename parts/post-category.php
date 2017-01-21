@@ -6,6 +6,7 @@
             the_category(' / ');
             echo '</p>';
             break;
+        case "Hotmess" :
         case "Hotness" :
             echo '<p class="post-category hotness"><i class="fa fa-fire fa-fw"></i> ';
             the_category(' / ');
