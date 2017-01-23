@@ -16,8 +16,12 @@ This theme was designed for WordPress as a child theme for Hueman to make minor 
 
 #### Change Log:
 
+##### v1.0.2 (Jan 23, 2017)
+- Added event post category.
+- Created template files for furture updates.
+
 ##### v1.0.1 (Jan 21, 2017)
-- Added post category tempalte part to content-standard.
+- Added post category template part to content-standard.
 - Added additional case to post categories.
 
 ##### v1.0.0 (Jan 16, 2017)

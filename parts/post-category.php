@@ -1,6 +1,12 @@
 <?php $category = get_the_category(); ?>
 <?php
     switch( $category[0]->cat_name ) {
+        case "Event" :
+        case "Events" :
+            echo '<p class="post-category hotness"><i class="fa fa-calendar-o fa-fw"></i> ';
+            the_category(' / ');
+            echo '</p>';
+            break;
         case "Galleries" :
             echo '<p class="post-category hotness"><i class="fa fa-picture-o fa-fw"></i> ';
             the_category(' / ');
